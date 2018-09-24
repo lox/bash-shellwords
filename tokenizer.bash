@@ -1,5 +1,3 @@
-#!/bin/bash
-set -euo pipefail
 
 tokenize_shell_string() {
   local input="$1"

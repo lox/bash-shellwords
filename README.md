@@ -20,3 +20,6 @@ done
 # quoted string
 ```
 
+## Output
+
+The `tokenize_shell_string` function populates a global bash array called `$result`. It will return an code of `0` if all went well, `1` if there is a parse error and `100` if any special shell characters are detected unquoted.
